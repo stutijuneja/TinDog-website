@@ -1,0 +1,178 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #eb455f;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.rotated {
+  transform: rotate(25deg);
+  width: 20%;
+  margin-left: 15%;
+  position: absolute;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 50px;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-family: "Montserrat-light";
+}
+
+.Download-button {
+  margin: 5% 3% 5% 0;
+}
+
+#features {
+  text-align: center;
+
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.button:hover {
+  color: palevioletred;
+}
+
+.button {
+  margin: 28px;
+  color: #eb455f;
+}
+
+.feature-content {
+  font-family: "Montserrat-light";
+  width: 70%;
+  margin: auto;
+  color: gray;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+h2 {
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #f7a4a4;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 25%;
+  border-radius: 100%;
+  margin: 25px;
+}
+
+#press {
+  background-color: #f7a4a4;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-header {
+  background-color: #c08b8b;
+  color: rgb(0, 0, 0);
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 992px) {
+  .rotated {
+    transform: rotate(0);
+    position: static;
+    width: 50%;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+#cta {
+  color: #fff;
+  background-color: #f7a4a4;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.foot-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  width: 100%;
+  text-align: center;
+  padding: 2% 10%;
+}
+
+.foot-btn1 {
+  background-color: black;
+}
+
+.foot-btn2 {
+  background-color: #fff;
+  color: black;
+}
+
+#footer {
+  background-color: #fff;
+  color: gray;
+  margin-top: 90px;
+  text-align: center;
+  font-family: "Montserrat-light";
+  font-size: 20px;
+}
+
+.foot-icon {
+  color: gray;
+  letter-spacing: 20px;
+}
